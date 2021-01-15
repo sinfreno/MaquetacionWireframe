@@ -1,0 +1,117 @@
+/* General */
+
+body {
+    background-color: ffffff;
+    margin: 0;
+}
+
+
+/* Cabecera de la web donde se encuentra el logo y los enlaces a las redes sociales */
+
+header {
+    background-color: #333333;
+    height: 120px;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+
+}
+
+.logo {
+    background-color: white;
+    width: 200px;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 30px;
+    position: absolute;
+
+}
+
+/* Este es el bloque de los iconos */
+.rss {
+    height: 60px;
+    width: 140px;
+    right: 30px;
+    margin-top: 30px;
+    position: absolute;
+    display: flex;
+
+}
+
+.icon {
+    width: calc(100% / 3);
+    height: 40px;
+    background-color: white;
+    margin: auto;
+    border-radius: 50%;
+    margin-left: 6px;
+
+
+}
+
+/* Navegador de la web donde encontraremos los enlaces a diferentes paginas o secciones */
+
+nav {
+    height: 95px;
+    width: 1000px;
+    display: flex;
+    margin: auto;
+}
+
+.seccion {
+    background-color: darkgray;
+    width: calc(100% / 5);
+    height: 48px;
+    margin-top: 20px;
+    border: white 1px solid;
+
+}
+
+/* Bloque de los 3 artículos principales de la web */
+
+article {
+    display: flex;
+    width: 1000px;
+    margin: auto;
+}
+
+.articulo {
+    background-color: darkgray;
+    width: calc(100% / 3);
+    height: 300px;
+    border: white 1px solid;
+
+}
+
+
+/* Blog*/
+
+main {
+    background-color: darkgrey;
+    width: 1000px;
+    margin: auto;
+    height: 450px;
+    margin-top: 25px;
+
+}
+
+.blog {
+    background-color: #333333;
+    margin: auto;
+    width: 600px;
+    height: 450px;
+}
+
+/* Footer */
+
+footer{
+    background-color: #333333;
+    height: 70px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
