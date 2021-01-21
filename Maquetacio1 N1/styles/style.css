@@ -2,11 +2,12 @@
 
 body {
     background-color: ffffff;
+    font-family: 'fraunces', 'Times New Roman', Times, serif;
 }
 
 img {
-    max-width:100%;
-    max-height:100%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .container{
@@ -19,10 +20,10 @@ img {
 /* Cabecera de la web donde se encuentra el logo y los enlaces a las redes sociales */
 
 header {
-    background-color: darkgray;
+
+    background-image: url(../images/fondo.jpg);
     height: 120px;
     display: flex;
-    position: relative;
     justify-content: space-between;
 
 }
@@ -49,7 +50,6 @@ header {
     width: calc(100% / 3);
     height: 40px;
     margin: auto;
-    border-radius: 50%;
     margin-left: 6px;
     background-color: white;
 
@@ -69,6 +69,8 @@ nav {
     height: 48px;
     margin-top: 20px;
     border: white 1px solid;
+    text-align: center;
+    padding-top: 15px;
 
 }
 
@@ -78,12 +80,26 @@ article {
     display: flex;
 }
 
-.articulo {
+.articulo1, .articulo2, .articulo3 {
     background-color: darkgray;
     width: calc(100% / 3);
     height: 300px;
     border: white 1px solid;
+    text-align: center;
 
+}
+/* Fotografias de los articulos principales */
+.articulo1 {
+    background-image: url(../images/india.jpg);
+    background-size: cover;
+}
+.articulo2 {
+    background-image: url(../images/peru.jpg);
+    background-size: cover;
+}
+.articulo3 {
+    background-image: url(../images/australia.jpg);
+    background-size: cover;
 }
 
 
@@ -91,7 +107,6 @@ article {
 
 main {
     background-color: darkgrey;
-    height: 450px;
     margin-top: 25px;
 
 }
@@ -100,8 +115,25 @@ main {
     background-color: #333333;
     margin: auto;
     width: 600px;
-    height: 450px;
+    display: flex;
+    flex-direction: column;
 }
+
+.entradas{
+    display: flex;
+    padding: 20px;
+}
+
+.izq{
+    width: 50%;
+}
+
+.der{
+    width: 50%;
+    padding-left: 20px;
+
+}
+
 
 /* Footer */
 
@@ -110,11 +142,12 @@ footer{
     height: 70px;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding: 20px;
 
 }
 
 @media only screen and (max-width: 600px) {
-    .articulo {
+    .articulo1, .articulo2, .articulo3 {
         background-color: darkgray;
         width: 100%;
         height: 300px;
