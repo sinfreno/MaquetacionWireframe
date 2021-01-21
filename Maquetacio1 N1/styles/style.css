@@ -20,6 +20,7 @@ img {
 /* Cabecera de la web donde se encuentra el logo y los enlaces a las redes sociales */
 
 header {
+
     background-image: url(../images/fondo.jpg);
     height: 120px;
     display: flex;
@@ -32,6 +33,7 @@ header {
     height: 60px;
     margin-left: 30px;
     margin-top: 30px;
+    background-color: white;
 
 }
 
@@ -49,6 +51,7 @@ header {
     height: 40px;
     margin: auto;
     margin-left: 6px;
+    background-color: white;
 
 
 }
